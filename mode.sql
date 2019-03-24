@@ -2,7 +2,7 @@ select `Book-Rating`, max_count
 from
 (
 	select `Book-Rating`, count(`Book-Rating`) as max_count from `BX-Book-Ratings`
-    where `ISBN` = '034545104X'
+    	where `ISBN` = '034545104X'
 	group by `Book-Rating`
 ) BBR
 where max_count in 
@@ -10,7 +10,7 @@ where max_count in
 	select max(count_val) from
 	(
 		select `Book-Rating`, count(`Book-Rating`) as count_val from `BX-Book-Ratings`
-        where `ISBN` = '034545104X'
+        	where `ISBN` = '034545104X'
 		group by `Book-Rating`
 	) subset
 )
