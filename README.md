@@ -17,4 +17,10 @@ over million rows in my machine.
 2. How many users have made exactly 2 ratings?
 Answer: 12502 (noOfUsersWith2Ratings.sql)
 3. Find the mean, median, mode, and range for number of ratings made for book
+Since the question was about calculating mean, median, mode, and range for number of ratings for book therefore I took one sample book ISBN in my where condition. Any desired book ISBN can be check through the same queries by replacing the corresponding ISBN number
+Queries are:
+- mean.sql
+- median.sql
+- mode.sql
+- range.sql
 4. If you look for users and ratings, does Pareto principle hold?
