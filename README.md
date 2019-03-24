@@ -13,7 +13,7 @@ Software installations and configurations took approximately 20 min. Data set fo
 Data and questions
 1. Load data into database (or any other data processing system)
 All sql files are dumped into a local schema that I have configured in my PC. It took around one hour to load
-over million rows in my machine.
+over million rows for three tables in my machine (MacBook Pro)
 2. How many users have made exactly 2 ratings?
 Answer: 12502 (noOfUsersWith2Ratings.sql)
 3. Find the mean, median, mode, and range for number of ratings made for book
