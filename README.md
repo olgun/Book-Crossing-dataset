@@ -25,9 +25,12 @@ Queries are:
 - range.sql
 4. If you look for users and ratings, does Pareto principle hold?
 Based on the knowledge that I have gained regarding Pareto principle;
-If we can say whether Pareto principle holds in this data set or not, I would say I have to make a statement first. 
-"80% of book ratings are given by 20% of all users."
-So first, I have checked how many unique books we have:
+Can we say whether Pareto principle holds in this data set or not, I would say I have to make a statement first. 
+"80% of book ratings are given by 20% of all users." So is it correct?
+
+First of all, I have to calculate 
+
+
 
 
 
