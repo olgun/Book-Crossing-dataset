@@ -1,4 +1,4 @@
-select `Book-Rating`, max_count 
+select `Book-Rating` as 'Book Rating Mode', max_count as Occurance
 from
 (
 	select `Book-Rating`, count(`Book-Rating`) as max_count from `BX-Book-Ratings`
