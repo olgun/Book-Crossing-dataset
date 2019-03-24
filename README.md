@@ -7,7 +7,7 @@ Software Tools:
 Data sets are taken from:
 http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 
-Background
+Background: 
 Software installations and configurations took approximately 20 min. Data set format is chosen as sql files.
 
 Data model diagram:
