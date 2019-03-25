@@ -31,9 +31,9 @@ Based on the knowledge that I have gained regarding Pareto principle on the inte
 Can we say whether Pareto principle holds in this data set or not, I would say I have to make a statement first. 
 "80% of explicit book ratings are given by 20% of all users." So is it correct?
 
-First of all, since I was not a power user of MySQL Workbench, I could not use data profiling functionality even if it exists in it. Instead I tried to focus on the numbers that I could gather and find any correlation. In this statement I have assumed we consider only explicit book ratings (1-10) because 0 is meant for implicit rating and '0' was default value for `Book-Rating` column in `BX-Book-Ratings` table.
+First of all, since I was not a power user of MySQL Workbench, I could not use data profiling functionalities even if they exist in it. Instead I tried to focus on the numbers that I could gather and find any correlation. In this statement I have assumed we consider only explicit book ratings (1-10) because 0 is meant for implicit rating and '0' was default value for `Book-Rating` column in `BX-Book-Ratings` table.
 
-I have calculated at the beginning total users and active users who rates book(s).
+I have calculated at the beginning total number of users and active users who rate book(s).
 select count(*) from `BX-Users`
 -- Row count: 278858
 
